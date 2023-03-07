@@ -2,6 +2,8 @@
 
 Shows pictures with datatypes. Tested and written in AmiKit.
 
+Some compiling instructions in the source code.
+
 Usage: DataTypeShow filename
   
 Example output:
