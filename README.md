@@ -2,7 +2,7 @@
 
 Shows pictures with datatypes. Tested and written in AmiKit.
 
-Usage: DataTypeShow <file name>
+Usage: DataTypeShow filename
   
 Example output:
   
