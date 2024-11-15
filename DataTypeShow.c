@@ -52,6 +52,9 @@
 
 #define	DTST_MEMORY		5
 
+#define PDTA_DestMode		(DTA_Dummy + 251)
+#define PMODE_V43 (1)	/* Extended mode */
+
 struct Library * IntuitionBase;
 struct Library * DataTypesBase;
 struct Library * UtilityBase;
@@ -147,6 +150,7 @@ void LoadPic(STRPTR Name)
 			Item = NewDTObject(Name,
 				PDTA_WhichPicture,	0,
 				PDTA_GetNumPictures, 1,
+				PDTA_DestMode,		PMODE_V43,
                 DTA_SourceType,      DTST_MEMORY,
 				DTA_SourceAddress,	memory,
 				DTA_SourceSize,		size,
